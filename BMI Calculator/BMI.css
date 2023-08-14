@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: blue;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 500px;
+    margin: 20px auto;
+    border:2px solid red;
+    border-radius: 10px;
+}
+
+#weight-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#height-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+    margin-top: 10px;
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    text-align: left;
+    border-radius: 15px;
+    border: 1px solid blue;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+button{
+    width: 150px;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background: blue;
+    color: white;
+}
+
+h3{
+    font-size: 25px;
+    text-shadow: 0px 0px 2px black;
+    
+}
+
+p{
+    font-size: 20px;
+    margin-top: 10px;
+    font-style: italic;
+    
+}

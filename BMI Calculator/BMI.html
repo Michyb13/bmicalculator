@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator For Adults</title>
+    <link rel="stylesheet" href="BMI.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,400;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Calculate Your BMI Here</h1>
+    <div id="container">
+        <div id="weight-container">
+        <label for="weight-input">Weight in Kg</label>
+        <input type="number"  step=".1" placeholder="Enter your Weight" id="weight-input">
+    </div>
+    <div id="height-container">
+        <label for="height-input">Height in Metres</label>
+        <input type="number" step= ".01" placeholder="Enter your Height" id="height-input">
+    </div>
+        <button id="bmi-btn">Calculate</button>
+        <h3 id="bmi-result"></h3>
+        <p id="bmi-class"></p>
+    </div>  
+    <script src="bmi.js"></script>
+</body>
+</html>
